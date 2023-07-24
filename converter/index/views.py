@@ -5,5 +5,4 @@ app_name = 'index'
 
 
 def index(request):
-    return render(request, 'index/index.html')
-
+    return render(request, 'users/profile.html')
